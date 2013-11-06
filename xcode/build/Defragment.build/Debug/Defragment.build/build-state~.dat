@@ -1,0 +1,983 @@
+TDefragment
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Debug/Defragment.app/Contents/Info.plist" Info.plist
+cCpResource ../resources/CinderApp.icns ./build/Debug/Defragment.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/5g/pnv2jrln2d5036kxn2yv5wqm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Defragment_Prefix-eefkmqwdqdreddbnppkllryppjht/Defragment_Prefix.pch.pth Defragment_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/DefragmentApp-E614ACC8ED2F623F.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../src/DefragmentApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/DefragmentApp-E614ACC8ED2F623F.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../src/DefragmentApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2BroadPhase.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2BroadPhase.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2CollideCircle.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2CollideCircle.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005237B2FA00000000000000AA
+t1379382010
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c0000000051853FE400000000000024F0
+t1367687140
+s9456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000051853FE50000000000024DD8
+t1367687141
+s151000
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c0000000051853FE500000000000060B4
+t1367687141
+s24756
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000051853FE600000000000001E5
+t1367687142
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c0000000051853FE6000000000000E9A8
+t1367687142
+s59816
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000510D38920000000000006560
+t1359820946
+s25952
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000510D3893000000000007CED0
+t1359820947
+s511696
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c00000000510D3898000000000002D360
+t1359820952
+s185184
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c000000005238E17900000000004B9FB0
+t1379459449
+s4956080
+
+N/Users/Stu/Downloads/cinder_0.8.5_mac/include/cinder/Cinder.h
+c0000000051780B7C0000000000000CEB
+t1366821756
+s3307
+
+N/Users/Stu/Downloads/cinder_0.8.5_mac/include/cinder/CinderMath.h
+c0000000051780B7C0000000000001F9E
+t1366821756
+s8094
+
+N/Users/Stu/Downloads/cinder_0.8.5_mac/include/cinder/Matrix.h
+c0000000051780B7C0000000000000EDD
+t1366821756
+s3805
+
+N/Users/Stu/Downloads/cinder_0.8.5_mac/include/cinder/Quaternion.h
+c0000000051780B7D0000000000005499
+t1366821757
+s21657
+
+N/Users/Stu/Downloads/cinder_0.8.5_mac/include/cinder/Vector.h
+c0000000051780B7D000000000000AD7C
+t1366821757
+s44412
+
+N/Users/Stu/Downloads/cinder_0.8.5_mac/include/cinder/app/AppBasic.h
+c0000000051780B7D0000000000002262
+t1366821757
+s8802
+
+N/Users/Stu/Downloads/cinder_0.8.5_mac/include/cinder/gl/gl.h
+c0000000051780B7E0000000000006469
+t1366821758
+s25705
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/Shapes/b2ChainShape.cpp
+c0000000051780B7400000000000011B4
+t1366821748
+s4532
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/Shapes/b2CircleShape.cpp
+c0000000051780B740000000000000C6B
+t1366821748
+s3179
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/Shapes/b2EdgeShape.cpp
+c0000000051780B740000000000000D81
+t1366821748
+s3457
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/Shapes/b2PolygonShape.cpp
+c0000000051780B74000000000000267C
+t1366821748
+s9852
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2BroadPhase.cpp
+c0000000051780B740000000000000CBA
+t1366821748
+s3258
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2CollideCircle.cpp
+c0000000051780B7400000000000011A2
+t1366821748
+s4514
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2CollideEdge.cpp
+c0000000051780B740000000000003F6B
+t1366821748
+s16235
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2CollidePolygon.cpp
+c0000000051780B740000000000002336
+t1366821748
+s9014
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2Collision.cpp
+c0000000051780B74000000000000197A
+t1366821748
+s6522
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2Distance.cpp
+c0000000051780B7400000000000035E1
+t1366821748
+s13793
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2DynamicTree.cpp
+c0000000051780B740000000000004420
+t1366821748
+s17440
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp
+c0000000051780B740000000000002F7B
+t1366821748
+s12155
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Common/b2BlockAllocator.cpp
+c0000000051780B7400000000000013FA
+t1366821748
+s5114
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Common/b2Draw.cpp
+c0000000051780B7400000000000004ED
+t1366821748
+s1261
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Common/b2Math.cpp
+c0000000051780B740000000000000AFF
+t1366821748
+s2815
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Common/b2Settings.cpp
+c0000000051780B740000000000000574
+t1366821748
+s1396
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Common/b2StackAllocator.cpp
+c0000000051780B740000000000000854
+t1366821748
+s2132
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Common/b2Timer.cpp
+c0000000051780B740000000000000942
+t1366821748
+s2370
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.cpp
+c0000000051780B740000000000000932
+t1366821748
+s2354
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.cpp
+c0000000051780B740000000000000941
+t1366821748
+s2369
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2CircleContact.cpp
+c0000000051780B740000000000000857
+t1366821748
+s2135
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2Contact.cpp
+c0000000051780B740000000000001D50
+t1366821748
+s7504
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ContactSolver.cpp
+c0000000051780B740000000000005BFE
+t1366821748
+s23550
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp
+c0000000051780B74000000000000082D
+t1366821748
+s2093
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp
+c0000000051780B74000000000000083B
+t1366821748
+s2107
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp
+c0000000051780B740000000000000857
+t1366821748
+s2135
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonContact.cpp
+c0000000051780B74000000000000086A
+t1366821748
+s2154
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2DistanceJoint.cpp
+c0000000051780B740000000000001D83
+t1366821748
+s7555
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2FrictionJoint.cpp
+c0000000051780B740000000000001BE8
+t1366821748
+s7144
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2GearJoint.cpp
+c0000000051780B740000000000002F9B
+t1366821748
+s12187
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2Joint.cpp
+c0000000051780B7400000000000013CD
+t1366821748
+s5069
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2MouseJoint.cpp
+c0000000051780B7400000000000015E3
+t1366821748
+s5603
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp
+c0000000051780B740000000000004531
+t1366821748
+s17713
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2PulleyJoint.cpp
+c0000000051780B7400000000000022AA
+t1366821748
+s8874
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp
+c0000000051780B74000000000000356B
+t1366821748
+s13675
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2RopeJoint.cpp
+c0000000051780B7400000000000019CB
+t1366821748
+s6603
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.cpp
+c0000000051780B740000000000002381
+t1366821748
+s9089
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2WheelJoint.cpp
+c0000000051780B740000000000002AED
+t1366821748
+s10989
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/b2Body.cpp
+c0000000051780B740000000000002E11
+t1366821748
+s11793
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/b2ContactManager.cpp
+c0000000051780B740000000000001C70
+t1366821748
+s7280
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/b2Fixture.cpp
+c0000000051780B740000000000002176
+t1366821748
+s8566
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/b2Island.cpp
+c0000000051780B740000000000004304
+t1366821748
+s17156
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/b2World.cpp
+c0000000051780B740000000000007783
+t1366821748
+s30595
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/b2WorldCallbacks.cpp
+c0000000051780B740000000000000661
+t1366821748
+s1633
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Rope/b2Rope.cpp
+c0000000051780B74000000000000142B
+t1366821748
+s5163
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../resources/CinderApp.icns
+c00000000527863770000000000070375
+t1383621495
+s459637
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/../src/DefragmentApp.cpp
+c0000000052786D1E000000000000022A
+t1383623966
+s554
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Debug/Defragment.app
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Debug/Defragment.app/Contents/Info.plist
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Debug/Defragment.app/Contents/MacOS/Defragment
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Debug/Defragment.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Debug/Defragment.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/Box.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/Defragment.LinkFileList
+c0000000052786D2C00000000000018E0
+t1383623980
+s6368
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/DefragmentApp-E614ACC8ED2F623F.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/DefragmentApp.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2BlockAllocator.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Body.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2BroadPhase.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2ChainAndCircleContact.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2ChainAndPolygonContact.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2ChainShape.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2CircleContact.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2CircleShape.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2CollideCircle.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2CollideEdge.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2CollidePolygon.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Collision.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Contact.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2ContactManager.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2ContactSolver.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Distance.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2DistanceJoint.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Draw.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2DynamicTree.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2EdgeAndCircleContact.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2EdgeAndPolygonContact.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2EdgeShape.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Fixture.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2FrictionJoint.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2GearJoint.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Island.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Joint.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Math.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2MouseJoint.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2PolygonAndCircleContact.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2PolygonContact.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2PolygonShape.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2PrismaticJoint.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2PulleyJoint.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2RevoluteJoint.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Rope.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2RopeJoint.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Settings.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2StackAllocator.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2TimeOfImpact.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Timer.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2WeldJoint.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2WheelJoint.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2World.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2WorldCallbacks.o
+t2
+s0
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.cpp
+c0000000052786B0300000000000002B0
+t1383623427
+s688
+
+N/Users/Stu/Google Drive/Cinder/Defragment/xcode/Defragment_Prefix.pch
+c0000000052786377000000000000012D
+t1383621495
+s301
+i<Cocoa/Cocoa.h>
+i"cinder/Cinder.h"
+i"cinder/app/AppBasic.h"
+i"cinder/gl/gl.h"
+i"cinder/CinderMath.h"
+i"cinder/Matrix.h"
+i"cinder/Vector.h"
+i"cinder/Quaternion.h"
+
+N/var/folders/5g/pnv2jrln2d5036kxn2yv5wqm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Defragment_Prefix-eefkmqwdqdreddbnppkllryppjht/Defragment_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c00000000527863770000000000000462
+t1383621495
+s1122
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/Shapes/b2ChainShape.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/Shapes/b2CircleShape.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/Shapes/b2EdgeShape.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/Shapes/b2PolygonShape.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2BroadPhase.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2CollideCircle.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2CollideEdge.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2CollidePolygon.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2Collision.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2Distance.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2DynamicTree.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Common/b2BlockAllocator.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Common/b2Draw.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Common/b2Math.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Common/b2Settings.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Common/b2StackAllocator.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Common/b2Timer.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2CircleContact.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2Contact.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ContactSolver.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonContact.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2DistanceJoint.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2FrictionJoint.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2GearJoint.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2Joint.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2MouseJoint.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2PulleyJoint.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2RopeJoint.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2WheelJoint.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/b2Body.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/b2ContactManager.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/b2Fixture.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/b2Island.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/b2World.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/b2WorldCallbacks.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Rope/b2Rope.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../src/DefragmentApp.cpp"
+r0
+
+CBuild AST from "/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.cpp"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies632586aca428b841^020f08ada428b841^---0#1#0#--18"Check dependencies36"0B48E5AA-AD15-4FA9-94AD-30E0D3473058-
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/Box.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/DefragmentApp-E614ACC8ED2F623F.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../src/DefragmentApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405316787.172762
+e405316790.673083
+r0
+xCompileC
+x./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/DefragmentApp-E614ACC8ED2F623F.o
+x/Users/Stu/Google Drive/Cinder/Defragment/xcode/../src/DefragmentApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/Stu/Google Drive/Cinder/Defragment/xcode/../src/DefragmentApp.cpp:4:
+o/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.h:30:17: error: 'Box' does not refer to a value
+oIn file included from /Users/Stu/Google Drive/Cinder/Defragment/xcode/../src/DefragmentApp.cpp:4:
+o/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.h:30:17: error: 'Box' does not refer to a value
+o    *std::list<*Box> getNeighbors();
+o                ^    *std::list<*Box> getNeighbors();
+o
+o                ^
+o/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.h:19:7: note: declared here
+o/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.hclass Box : public Rect::Rect {:
+o19      ^:
+o7: note: declared he/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.h:30:22: error: non-friend class member 'getNeighbors' cannot havre a qualified name
+o    *std::list<*Box> getNeighbors();
+o     ~~~~~           ^
+o/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.h:30:22: error: C++ requires a type specifier for all declarations
+o    *std::list<*Box> getNeighbors();
+o    ~                ^
+oe
+o/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.h:35:16class Box : public Rect::Rect {
+o      ^
+o:/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.h:30:22: error: non-friend class member 'getNeighb error: 'Box' does not refer to a value
+o    std::list<*Box> mNeighbors;
+o               ^
+o/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.h:19:7: note: declared here
+oclass Box : public Rect::Rect {
+o      ^
+oors' canno/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.h:38:2: error: expected ';' after classt 
+ohave a qualified name
+o    *std::list<*Box> getNeighbors();
+o     ~~~~~           ^
+o/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.h:30:22: error: C++ requires a type specifier for all declarations
+o    *std::list<*Box> getNeighbors();
+o    ~                ^
+o/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.h:35:16: error: 'Box' does not refer to a val}
+o ^
+o ;
+oue
+o    std::list<*Box> mNeighbors;
+o               ^
+o/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.h:19:7: note: declared here
+oclass Box : public Rect::Rect {
+o      ^
+o/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.h:38:2: error: expected ';' after class
+o}
+o ^
+o ;
+o5 errors generated.
+o5 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/Stu/Google Drive/Cinder/Defragment/xcode/../src/DefragmentApp.cppb4562cb3a428b841^ed44d5b6a428b841^-1137"In file included from /Users/Stu/Google Drive/Cinder/Defragment/xcode/../src/DefragmentApp.cpp:4:/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.h:30:17: error: 'Box' does not refer to a value    *std::list<*Box> getNeighbors();                ^/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.h:19:7: note: declared hereclass Box : public Rect::Rect {      ^/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.h:30:22: error: non-friend class member 'getNeighbors' cannot have a qualified name    *std::list<*Box> getNeighbors();     ~~~~~           ^/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.h:30:22: error: C++ requires a type specifier for all declarations    *std::list<*Box> getNeighbors();    ~                ^/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.h:35:16: error: 'Box' does not refer to a value    std::list<*Box> mNeighbors;               ^/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.h:19:7: note: declared hereclass Box : public Rect::Rect {      ^/Users/Stu/Google Drive/Cinder/Defragment/xcode/Box.h:38:2: error: expected ';' after class} ^ ;5 errors generated.-0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/Stu/Google%20Drive/Cinder/Defragment/xcode/../src/DefragmentApp.cpp0000000000000000^3129"CompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/DefragmentApp-E614ACC8ED2F623F.o ../src/DefragmentApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Stu/Google Drive/Cinder/Defragment/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Defragment-generated-files.hmap" "-I/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Defragment-own-target-headers.hmap" "-I/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Defragment-all-target-headers.hmap" -iquote "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Defragment-project-headers.hmap" -iquote../../../../Downloads/cinder_0.8.5_mac/include -iquote../include "-I/Users/Stu/Google Drive/Cinder/Defragment/xcode/build/Debug/include" -I../../../../Downloads/cinder_0.8.5_mac/boost -I../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src "-I/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/DerivedSources/i386" "-I/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/DerivedSources" "-F/Users/Stu/Google Drive/Cinder/Defragment/xcode/build/Debug" -include /var/folders/5g/pnv2jrln2d5036kxn2yv5wqm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Defragment_Prefix-eefkmqwdqdreddbnppkllryppjht/Defragment_Prefix.pch -MMD -MT dependencies -MF "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/DefragmentApp-E614ACC8ED2F623F.d" --serialize-diagnostics "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/DefragmentApp-E614ACC8ED2F623F.dia" -c "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../src/DefragmentApp.cpp" -o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/DefragmentApp-E614ACC8ED2F623F.o"36"63615B4E-F682-4C99-94AC-41D0AA1ACD1B-
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/DefragmentApp.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../src/DefragmentApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2BlockAllocator.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Common/b2BlockAllocator.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Body.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/b2Body.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2BroadPhase.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2BroadPhase.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405316787.172940
+e405316791.075117
+r1
+xCompileC
+x./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2BroadPhase.o
+x/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2BroadPhase.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Compile /Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2BroadPhase.cppc45e2cb3a428b841^d94313b7a428b841^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/Stu/Google%20Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2BroadPhase.cpp0000000000000000^3185"CompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2BroadPhase.o ../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2BroadPhase.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Stu/Google Drive/Cinder/Defragment/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Defragment-generated-files.hmap" "-I/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Defragment-own-target-headers.hmap" "-I/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Defragment-all-target-headers.hmap" -iquote "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Defragment-project-headers.hmap" -iquote../../../../Downloads/cinder_0.8.5_mac/include -iquote../include "-I/Users/Stu/Google Drive/Cinder/Defragment/xcode/build/Debug/include" -I../../../../Downloads/cinder_0.8.5_mac/boost -I../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src "-I/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/DerivedSources/i386" "-I/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/DerivedSources" "-F/Users/Stu/Google Drive/Cinder/Defragment/xcode/build/Debug" -include /var/folders/5g/pnv2jrln2d5036kxn2yv5wqm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Defragment_Prefix-eefkmqwdqdreddbnppkllryppjht/Defragment_Prefix.pch -MMD -MT dependencies -MF "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2BroadPhase.d" --serialize-diagnostics "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2BroadPhase.dia" -c "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2BroadPhase.cpp" -o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2BroadPhase.o"36"C92B9410-3EDA-4CAD-803E-E85C00389FE4-
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2ChainAndCircleContact.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2ChainAndPolygonContact.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2ChainShape.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/Shapes/b2ChainShape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2CircleContact.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2CircleContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2CircleShape.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/Shapes/b2CircleShape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2CollideCircle.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2CollideCircle.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405316787.173047
+e405316791.075102
+r1
+xCompileC
+x./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2CollideCircle.o
+x/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2CollideCircle.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Compile /Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2CollideCircle.cppe4662cb3a428b841^c44013b7a428b841^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/Stu/Google%20Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2CollideCircle.cpp0000000000000000^3203"CompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2CollideCircle.o ../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2CollideCircle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Stu/Google Drive/Cinder/Defragment/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Defragment-generated-files.hmap" "-I/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Defragment-own-target-headers.hmap" "-I/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Defragment-all-target-headers.hmap" -iquote "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Defragment-project-headers.hmap" -iquote../../../../Downloads/cinder_0.8.5_mac/include -iquote../include "-I/Users/Stu/Google Drive/Cinder/Defragment/xcode/build/Debug/include" -I../../../../Downloads/cinder_0.8.5_mac/boost -I../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src "-I/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/DerivedSources/i386" "-I/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/DerivedSources" "-F/Users/Stu/Google Drive/Cinder/Defragment/xcode/build/Debug" -include /var/folders/5g/pnv2jrln2d5036kxn2yv5wqm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Defragment_Prefix-eefkmqwdqdreddbnppkllryppjht/Defragment_Prefix.pch -MMD -MT dependencies -MF "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2CollideCircle.d" --serialize-diagnostics "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2CollideCircle.dia" -c "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2CollideCircle.cpp" -o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2CollideCircle.o"36"4F9A00FB-5FC1-435C-A696-3B474019FCB4-
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2CollideEdge.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2CollideEdge.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2CollidePolygon.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2CollidePolygon.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Collision.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2Collision.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Contact.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2Contact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2ContactManager.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/b2ContactManager.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2ContactSolver.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2ContactSolver.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Distance.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2Distance.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2DistanceJoint.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2DistanceJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Draw.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Common/b2Draw.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2DynamicTree.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2DynamicTree.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2EdgeAndCircleContact.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2EdgeAndPolygonContact.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2EdgeShape.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/Shapes/b2EdgeShape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Fixture.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/b2Fixture.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2FrictionJoint.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2FrictionJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2GearJoint.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2GearJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Island.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/b2Island.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Joint.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2Joint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Math.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Common/b2Math.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2MouseJoint.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2MouseJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2PolygonAndCircleContact.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2PolygonContact.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2PolygonContact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2PolygonShape.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/Shapes/b2PolygonShape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2PrismaticJoint.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2PulleyJoint.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2PulleyJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2RevoluteJoint.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Rope.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Rope/b2Rope.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2RopeJoint.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2RopeJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Settings.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Common/b2Settings.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2StackAllocator.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Common/b2StackAllocator.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2TimeOfImpact.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2TimeOfImpact.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2Timer.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Common/b2Timer.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2WeldJoint.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2WheelJoint.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2WheelJoint.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2World.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/b2World.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/Defragment.build/Debug/Defragment.build/Objects-normal/i386/b2WorldCallbacks.o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/b2WorldCallbacks.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCpResource ../resources/CinderApp.icns ./build/Debug/Defragment.app/Contents/Resources/CinderApp.icns
+s405316781.074995
+e405316781.151927
+r1
+xCpResource
+x../resources/CinderApp.icns
+x./build/Debug/Defragment.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy ./build/Debug/Defragment.app/Contents/Resources/CinderApp.icnsccf11aada428b841^e2e426ada428b841^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/Stu/Google%20Drive/Cinder/Defragment/xcode/./build/Debug/Defragment.app/Contents/Resources/CinderApp.icns000000000080d041^447"CpResource ../resources/CinderApp.icns ./build/Debug/Defragment.app/Contents/Resources/CinderApp.icns    cd "/Users/Stu/Google Drive/Cinder/Defragment/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Stu/Google Drive/Cinder/Defragment/xcode/../resources/CinderApp.icns" "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Debug/Defragment.app/Contents/Resources"36"26EDD7C1-DFC1-4C64-AC91-59E57A2B1E23-
+
+CLd "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Debug/Defragment.app/Contents/MacOS/Defragment" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Debug/Defragment.app/Contents/Info.plist" Info.plist
+s405316781.039775
+e405316781.066985
+r1
+xProcessInfoPlistFile
+x/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Debug/Defragment.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist003c0aada428b841^2ba418ada428b841^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/Stu/Google%20Drive/Cinder/Defragment/xcode/Info.plist0000000000000000^426"ProcessInfoPlistFile ./build/Debug/Defragment.app/Contents/Info.plist Info.plist    cd "/Users/Stu/Google Drive/Cinder/Defragment/xcode"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Debug/Defragment.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Debug/Defragment.app/Contents/Info.plist"36"84C32F8B-1B91-4AA7-B81B-BDCAE6E8F830-
+
+CProcessPCH++ /Users/Stu/Library/Developer/Xcode/DerivedData/Defragment-cczfkabjnbxeekcuorgwznbtnhse/Index/PrecompiledHeaders/Defragment_Prefix-cgooplkgrsdqsefvcrsvnhbcatzq_ast/Defragment_Prefix.pch.pth Defragment_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/5g/pnv2jrln2d5036kxn2yv5wqm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Defragment_Prefix-eefkmqwdqdreddbnppkllryppjht/Defragment_Prefix.pch.pth Defragment_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405316781.160067
+e405316787.165709
+r1
+xProcessPCH++
+x/var/folders/5g/pnv2jrln2d5036kxn2yv5wqm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Defragment_Prefix-eefkmqwdqdreddbnppkllryppjht/Defragment_Prefix.pch.pth
+xDefragment_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Precompile Defragment_Prefix.pch0d1729ada428b841^9c6d2ab3a428b841^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/Stu/Google%20Drive/Cinder/Defragment/xcode/Defragment_Prefix.pch0000000000000000^3072"ProcessPCH++ /var/folders/5g/pnv2jrln2d5036kxn2yv5wqm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Defragment_Prefix-eefkmqwdqdreddbnppkllryppjht/Defragment_Prefix.pch.pth Defragment_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Stu/Google Drive/Cinder/Defragment/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Defragment-generated-files.hmap" "-I/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Defragment-own-target-headers.hmap" "-I/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Defragment-all-target-headers.hmap" -iquote "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/Defragment-project-headers.hmap" -iquote../../../../Downloads/cinder_0.8.5_mac/include -iquote../include "-I/Users/Stu/Google Drive/Cinder/Defragment/xcode/build/Debug/include" -I../../../../Downloads/cinder_0.8.5_mac/boost -I../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src "-I/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/DerivedSources/i386" "-I/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Defragment.build/Debug/Defragment.build/DerivedSources" "-F/Users/Stu/Google Drive/Cinder/Defragment/xcode/build/Debug" --serialize-diagnostics /var/folders/5g/pnv2jrln2d5036kxn2yv5wqm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Defragment_Prefix-eefkmqwdqdreddbnppkllryppjht/Defragment_Prefix.pch.dia -c "/Users/Stu/Google Drive/Cinder/Defragment/xcode/Defragment_Prefix.pch" -o /var/folders/5g/pnv2jrln2d5036kxn2yv5wqm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Defragment_Prefix-eefkmqwdqdreddbnppkllryppjht/Defragment_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/5g/pnv2jrln2d5036kxn2yv5wqm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Defragment_Prefix-eefkmqwdqdreddbnppkllryppjht/Defragment_Prefix.pch.d36"6A661788-1AF4-4FD9-9585-2E6CCCF37EF4-
+
+CTouch "/Users/Stu/Google Drive/Cinder/Defragment/xcode/./build/Debug/Defragment.app"
+r0
+

@@ -10,47 +10,56 @@
 #define __Defragment__Box__
 
 #include <iostream>
-#include "cinder/Rect.h"
 #include <list>
 
-#endif /* defined(__Defragment__Box__) */
+#include "cinder/Vector.h"
+#include "cinder/Rect.h"
+#include "cinder/Color.h"
+#include "cinder/Rand.h"
+#include "cinder/Timeline.h"
 
+#include "Cell.h"
 
-class Box : public Rect::Rect {
+const int DIR_ARRAY[] = {1,3,4,6};
+const std::vector<int> NESW (DIR_ARRAY, DIR_ARRAY + sizeof(DIR_ARRAY) / sizeof(int));
+
+class Box {
 private:
-    ci::Vec2i mPosition;
-    ci::Vec2i mSize;
+    //ci::Vec2i mPosition;
+    int mRadius;
+    ci::Vec3f mColor;
 
-    typedef std::list<Box> Boxes;
-    Boxes mNeighbors;
+    Cell *mCellPtr = nullptr;
+    Cell *mCellMovingToPtr = nullptr;
+
+    ci::Anim<ci::Vec2f> mPosition;
+    bool mIsMoving = false;
     
+    float mSpeed;
+
 public:
     Box();
-    Box(ci::Vec2i pos);
-    Box(ci::Vec2i pos, ci::Vec2i size);
+    Box(Cell *cellPtr);
     
-    ci::Vec2i getPosition();
-    ci::Vec2i getSize();
+    void setup();
+    void update();
+    void draw();
     
-    void setPosition( ci::Vec2i newPosition );
+    void beginMoveTo(Cell *cellPtr);
+    void move();
+    void endMove();
     
+    bool isMoving();
     
-    //void getNeighbors(OutputIterator result);
+    ci::Vec2f getPosition();
+    int getSize();
+    int getRadius();
+    
+    void setPosition( ci::Vec2f newPosition );
+    void setSize( int newSize );
+    void setRadius( int newRadius );
+ 
 
-    struct Neighbors {
-        friend Box;
-        typedef Boxes::iterator iterator;
-        
-        iterator begin() {
-            return mBox.mNeighbors.begin();
-        }
-        
-        iterator end() {
-            return mBox.mNeighbors.end();
-        }
-    private:
-        Neighbors(Box& b) : mBox(b) {}
-        Box& mBox;
-    } Neighbors;
-    
 };
+
+#endif /* defined(__Defragment__Box__) */
