@@ -47,33 +47,8 @@ public:
         iterator end() {
             return mCell.mNeighbors.end();
         }
-/*
-        struct isOccupied {
-            bool operator()(Cell& c) {
-                return c.isOccupied();
-            }
-        };
-
-        struct Occupied {
-            friend Neighbors;
-            friend Cell;
-            typedef boost::filter_iterator<isOccupied, Cells::iterator> iterator;
-            typedef boost::filter_iterator<isOccupied, Cells::const_iterator> const_iterator;
-            
-            iterator begin() {
-                return boost::make_filter_iterator<isOccupied>(mCell.mNeighbors.begin(),mCell.mNeighbors.end());
-            }
-
-            iterator end() {
-                return boost::make_filter_iterator<isOccupied>(mCell.mNeighbors.end(),mCell.mNeighbors.end());
-            }
-        private:
-            Occupied(Cell& c) : mCell(c) {};
-            Cell& mCell;
-        } Occupied;
-*/
     private:
-        Neighbors(Cell& c) : mCell(c) {};
+        Neighbors(Cell &c) : mCell(c) {};
         Cell& mCell;
     } Neighbors;
 

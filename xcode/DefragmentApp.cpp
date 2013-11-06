@@ -29,8 +29,8 @@ private:
     int mWidth = 1200;
     int mHeight = 800;
     
-    Grid mGrid = Grid( mWidth, mHeight, 10);
-    BoxController mBoxController = BoxController( &mGrid, 5000);
+    Grid mGrid = Grid( mWidth, mHeight, 20);
+    BoxController mBoxController = BoxController( &mGrid, 100);
     
 };
 
@@ -55,10 +55,10 @@ void DefragmentApp::update() {
 
 void DefragmentApp::draw() {
     // clear out the window with black
-    gl::clear( Color(0,0,0) );
-    
-    mBoxController.draw();
+    gl::clear( Color(1,1,1) );
     mGrid.draw();
+    mBoxController.draw();
+
 };
 
 CINDER_APP_NATIVE( DefragmentApp, RendererGl );

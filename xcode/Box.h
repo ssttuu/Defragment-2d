@@ -17,6 +17,7 @@
 #include "cinder/Color.h"
 #include "cinder/Rand.h"
 #include "cinder/Timeline.h"
+#include "cinder/Path2d.h"
 
 #include "Cell.h"
 
@@ -25,17 +26,20 @@ const std::vector<int> NESW (DIR_ARRAY, DIR_ARRAY + sizeof(DIR_ARRAY) / sizeof(i
 
 class Box {
 private:
-    //ci::Vec2i mPosition;
+    ci::Anim<ci::Vec2f> mPosition;
     int mRadius;
+    float mSpeed;
     ci::Vec3f mColor;
+
+    bool mIsMoving = false;
 
     Cell *mCellPtr = nullptr;
     Cell *mCellMovingToPtr = nullptr;
-
-    ci::Anim<ci::Vec2f> mPosition;
-    bool mIsMoving = false;
     
-    float mSpeed;
+    std::vector<Cell*> mCellHistory;
+    int mTrailLength = 20;
+    
+    ci::Path2d mPath;
 
 public:
     Box();
@@ -43,7 +47,10 @@ public:
     
     void setup();
     void update();
+    
     void draw();
+    void drawBox();
+    void drawTrail();
     
     void beginMoveTo(Cell *cellPtr);
     void move();
@@ -60,6 +67,8 @@ public:
     void setRadius( int newRadius );
  
 
+    void appendCurrentCell();
+    bool justVisited(Cell *cellPtr);
 };
 
 #endif /* defined(__Defragment__Box__) */

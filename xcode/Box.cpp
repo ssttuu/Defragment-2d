@@ -27,9 +27,8 @@ Box::Box(Cell *cellPtr) {
     mCellPtr->setOccupied(true);
     setPosition(mCellPtr->getPosition());
     setSize(mCellPtr->getSize());
-    mColor = Rand::randVec3f()/2;
+    mColor = Rand::randVec3f();
     mSpeed = Rand::randFloat(0.1f, 1.0f);
-    //std::cout << "new box at" << mCellPtr->getPosition() << "," << getPosition() << std::endl;
 }
 
 
@@ -42,37 +41,59 @@ void Box::update() {
     // 3 is left
     // 4 is right
     // 6 is down
-    //vector<int> NEWS({1,3,4,6});
+
     std::vector<int> moveOptions;
-    
-    
-    if(isMoving() == false) {
+
+    if( !isMoving()) {
         for(int i=0; i<NESW.size(); i++) {
             int dir = NESW.at(i);
-            if ((mCellPtr->mNeighbors).at( dir ) != nullptr) {
-                if ( mCellPtr->mNeighbors.at( dir )->isOccupied() == false) {
+            Cell *tmpCellPtr = mCellPtr->mNeighbors.at( dir );
+            if ( tmpCellPtr != nullptr) {
+                if ( !tmpCellPtr->isOccupied() && !justVisited(tmpCellPtr)) {
                     moveOptions.push_back(dir);
                 }
             }
         }
-        
-        
+
         if(moveOptions.size() > 0) {
             int directionChoice = Rand::randInt(0, moveOptions.size());
-            
             beginMoveTo(mCellPtr->mNeighbors.at( moveOptions.at(directionChoice) ) );
         }
     }
 }
 
 void Box::draw() {
+    drawTrail();
+    drawBox();
+
+}
+
+void Box::drawBox() {
     glColor3f(1.0, 1.0, 1.0);
     Vec2f rad = Vec2f(mRadius,mRadius);
     gl::drawSolidRect( ci::Rectf(mPosition.value()-rad, mPosition.value()+rad) );
-
+    
     rad = Vec2f(mRadius-1,mRadius-1);
     glColor3f(mColor.x, mColor.y, mColor.z);
     gl::drawSolidRect( ci::Rectf(mPosition.value()-rad, mPosition.value()+rad) );
+}
+
+void Box::drawTrail() {
+    int start = 0;
+    /*
+    if (mCellHistory.size() > mTrailLength) {
+        start = mCellHistory.size() - mTrailLength;
+    }
+    */
+    glColor3f(mColor.x, mColor.y, mColor.z);
+    mPath.clear();
+    int j=0;
+    for(int i=start; i<mCellHistory.size(); i++) {
+        if(j==0) mPath.moveTo(mCellHistory.at(i)->getPosition());
+        mPath.lineTo(mCellHistory.at(i)->getPosition());
+        j++;
+    }
+    gl::draw(mPath);
 }
 
 void Box::beginMoveTo(Cell *cellPtr) {
@@ -92,6 +113,7 @@ void Box::endMove() {
     mCellPtr->setOccupied(false);
     mCellPtr = mCellMovingToPtr;
     mIsMoving = false;
+    appendCurrentCell();
 }
                       
 bool Box::isMoving() {
@@ -121,4 +143,17 @@ void Box::setSize( int newSize ) {
 
 void Box::setRadius( int newRadius ) {
     mRadius = newRadius;
+}
+
+void Box::appendCurrentCell() {
+    mCellHistory.push_back( mCellPtr );
+}
+
+bool Box::justVisited(Cell *cellPtr) {
+    if (mCellHistory.size() <= 1) {
+        return false;
+    }
+    // the last item in mCellHistory is the current cell we're in
+    // the one before that is the one we just came from, hence -2
+    return cellPtr == mCellHistory.at(mCellHistory.size()-2);
 }
