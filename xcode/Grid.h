@@ -6,8 +6,7 @@
 //
 //
 
-#ifndef __Defragment__Grid__
-#define __Defragment__Grid__
+#pragma once
 
 #include <iostream>
 #include "Cell.h"
@@ -23,25 +22,26 @@ public:
     void update();
     void draw();
     
-    int getWidth();
-    int getHeight();
-    int getResolution();
-    ci::Vec2i getSize();
-    int getRows();
-    int getCols();
-    ci::Vec2i getDimensions();
+    const int getWidth() const;
+    const int getHeight() const;
+    const int getResolution() const;
+    const ci::Vec2i getSize() const;
+    const int getRows() const;
+    const int getCols() const;
+    const ci::Vec2i getDimensions() const;
     
-    bool isFullyOccupied();
+    bool isFullyOccupied() const;
     
-    Cell *getNextRandomCell();
-    Cell *getNextOrderedCell();
+    Cell& getNextRandomCell();
+    Cell& getNextOrderedCell();
 
 
-private:
+public:
     typedef std::vector<Cell> CellRow;
     typedef std::vector<CellRow> Grid2d;
     typedef std::vector<Grid2d> Grid3d;
 
+private:
     int mWidth = 100;
     int mHeight = 100;
     int mResolution = 0;
@@ -53,5 +53,3 @@ private:
     Grid2d mGrid;
     
 };
-
-#endif /* defined(__Defragment__Grid__) */

@@ -6,8 +6,7 @@
 //
 //
 
-#ifndef __Defragment__Box__
-#define __Defragment__Box__
+#pragma once
 
 #include <iostream>
 #include <list>
@@ -71,4 +70,3 @@ public:
     bool justVisited(Cell *cellPtr);
 };
 
-#endif /* defined(__Defragment__Box__) */

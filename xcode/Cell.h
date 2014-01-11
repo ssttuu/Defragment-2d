@@ -6,14 +6,11 @@
 //
 //
 
-#ifndef __Defragment__Cell__
-#define __Defragment__Cell__
+#pragma once
 
 #include <iostream>
 #include "cinder/Vector.h"
 
-#include <boost/iterator.hpp>
-#include <boost/iterator/filter_iterator.hpp>
 
 class Cell {
 public:
@@ -24,33 +21,19 @@ public:
     Cell(ci::Vec2i index);
     Cell(ci::Vec2i index, int size);
     
-    bool isOccupied();
+    bool isOccupied() const;
     bool setOccupied(bool occupied);
     
-    ci::Vec2i getIndex();
-    ci::Vec2f getPosition();
-    int getSize();
+    const ci::Vec2i getIndex() const;
+    const ci::Vec2f getPosition()const;
+    const int getSize() const;
     void calcPosition();
 
     void addNeighbor(Cell *neighbor);
     void addNeighbors(Cells *neighbors);
     void addNeighborIsEdge();
 
-    struct Neighbors {
-        friend Cell;
-        typedef Cells::iterator iterator;
-        
-        iterator begin() {
-            return mCell.mNeighbors.begin();
-        }
-        
-        iterator end() {
-            return mCell.mNeighbors.end();
-        }
-    private:
-        Neighbors(Cell &c) : mCell(c) {};
-        Cell& mCell;
-    } Neighbors;
+    const Cells& getNeighbors() const;
 
     
     void draw();
@@ -63,5 +46,3 @@ private:
     ci::Vec2f mPosition;
     int mSize = 10;
 };
-
-#endif /* defined(__Defragment__Cell__) */

@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/Stu/Google\ Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2DistanceJoint.cpp \
+  /Users/stupschwartz/Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2DistanceJoint.cpp \
   ../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2DistanceJoint.h \
   ../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Joints/b2Joint.h \
   ../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Common/b2Math.h \

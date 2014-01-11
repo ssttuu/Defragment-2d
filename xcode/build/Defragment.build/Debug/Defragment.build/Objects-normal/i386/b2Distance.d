@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/Stu/Google\ Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2Distance.cpp \
+  /Users/stupschwartz/Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2Distance.cpp \
   ../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Collision/b2Distance.h \
   ../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Common/b2Math.h \
   ../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Common/b2Settings.h \

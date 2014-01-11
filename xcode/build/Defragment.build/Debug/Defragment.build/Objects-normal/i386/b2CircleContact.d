@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/Stu/Google\ Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2CircleContact.cpp \
+  /Users/stupschwartz/Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2CircleContact.cpp \
   ../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2CircleContact.h \
   ../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/Contacts/b2Contact.h \
   ../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Common/b2Math.h \

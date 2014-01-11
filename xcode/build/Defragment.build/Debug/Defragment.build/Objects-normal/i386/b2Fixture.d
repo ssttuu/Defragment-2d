@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/Stu/Google\ Drive/Cinder/Defragment/xcode/../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/b2Fixture.cpp \
+  /Users/stupschwartz/Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/b2Fixture.cpp \
   ../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/b2Fixture.h \
   ../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Dynamics/b2Body.h \
   ../../../../Downloads/cinder_0.8.5_mac/blocks/Box2D/src/Box2D/Common/b2Math.h \
