@@ -32,8 +32,8 @@ private:
 
     bool mIsMoving = false;
 
-    Cell *mCellPtr = nullptr;
-    Cell *mCellMovingToPtr = nullptr;
+    Cell* mCellPtr = nullptr;
+    Cell* mCellMovingToPtr = nullptr;
     
     std::vector<Cell*> mCellHistory;
     int mTrailLength = 20;
@@ -42,7 +42,7 @@ private:
 
 public:
     Box();
-    Box(Cell *cellPtr);
+    Box(Cell& cellPtr);
     
     void setup();
     void update();
@@ -51,15 +51,15 @@ public:
     void drawBox();
     void drawTrail();
     
-    void beginMoveTo(Cell *cellPtr);
+    void beginMoveTo(Cell& cellPtr);
     void move();
     void endMove();
     
-    bool isMoving();
+    bool isMoving() const;
     
-    ci::Vec2f getPosition();
-    int getSize();
-    int getRadius();
+    const ci::Vec2f& getPosition() const;
+    int getSize() const;
+    int getRadius() const;
     
     void setPosition( ci::Vec2f newPosition );
     void setSize( int newSize );
@@ -67,6 +67,6 @@ public:
  
 
     void appendCurrentCell();
-    bool justVisited(Cell *cellPtr);
+    bool justVisited(Cell& cellPtr) const;
 };
 

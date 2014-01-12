@@ -14,12 +14,13 @@
 
 using namespace ci;
 
-Grid::Grid() {
-    
-};
+Grid::Grid()
+{
+}
 
 
-Grid::Grid(int width, int height, int resolution) {
+Grid::Grid(int width, int height, int resolution)
+{
     mWidth = width;
     mHeight = height;
     mResolution = resolution;
@@ -37,9 +38,10 @@ Grid::Grid(int width, int height, int resolution) {
         mGrid.push_back(tmpRow);
     }
     
-};
+}
 
-void Grid::setup() {
+void Grid::setup()
+{
     // add neighbors
     for(int y=0; y<mNRows; y++) {
         for(int x=0; x<mNCols; x++) {
@@ -56,7 +58,7 @@ void Grid::setup() {
 
                         //Cell tmpCell mGrid[y+i][x+j];
                         //std::cout << mGrid[y+i][x+j].getIndex() << std::endl;
-                        mGrid[y][x].addNeighbor( &(mGrid[y+i][x+j]) );
+                        mGrid[y][x].addNeighbor( (mGrid[y+i][x+j]) );
 
                     } else {
                         mGrid[y][x].addNeighborIsEdge();
@@ -65,9 +67,10 @@ void Grid::setup() {
             }
         }
     }
-};
+}
 
-void Grid::draw() {
+void Grid::draw()
+{
     for(int i=0; i<mGrid.size(); i++) {
         for(int j=0; j<mGrid[i].size(); j++) {
             mGrid[i][j].draw();
@@ -75,29 +78,43 @@ void Grid::draw() {
     }
 }
 
-int Grid::getWidth() {
+int Grid::getWidth() const
+{
     return mWidth;
-};
-int Grid::getHeight() {
+}
+
+int Grid::getHeight() const
+{
     return mHeight;
-};
-int Grid::getResolution() {
+}
+
+int Grid::getResolution() const
+{
     return mResolution;
-};
-ci::Vec2i Grid::getSize() {
+}
+
+const ci::Vec2i Grid::getSize() const
+{
     return Vec2i(getWidth(), getHeight());
-};
-int Grid::getRows() {
+}
+
+int Grid::getRows() const
+{
     return mNRows;
-};
-int Grid::getCols() {
+}
+
+int Grid::getCols() const
+{
     return mNCols;
-};
-ci::Vec2i Grid::getDimensions() {
+}
+
+const ci::Vec2i Grid::getDimensions() const
+{
     return Vec2i(getRows(), getCols());
 };
 
-bool Grid::isFullyOccupied() {
+bool Grid::isFullyOccupied() const
+{
     for(int i=0; i<mGrid.size(); i++) {
         for(int j=0; j<mGrid[i].size(); j++) {
             if(mGrid[i][j].isOccupied()) {
@@ -109,7 +126,8 @@ bool Grid::isFullyOccupied() {
     return true;
 }
 
-Cell *Grid::getNextRandomCell() {
+Cell& Grid::getNextRandomCell()
+{
     int randRow;
     int randCol;
     do {
@@ -117,10 +135,11 @@ Cell *Grid::getNextRandomCell() {
         randCol = Rand::randInt(0, getCols());
     } while ( (mGrid[randRow][randCol]).isOccupied() );
     
-    return &(mGrid[randRow][randCol]);
+    return mGrid[randRow][randCol];
 }
 
-Cell *Grid::getNextOrderedCell() {
+Cell& Grid::getNextOrderedCell()
+{
     int nextRow;
     int nextCol;
     do {
@@ -128,9 +147,8 @@ Cell *Grid::getNextOrderedCell() {
         nextRow = mNextIndex / mNCols;
         mNextIndex++;
     } while ( (mGrid[nextRow][nextCol]).isOccupied() );
-    
-    
-    return &(mGrid[nextRow][nextCol]);
+
+    return mGrid[nextRow][nextCol];
 }
 
 

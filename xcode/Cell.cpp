@@ -9,64 +9,72 @@
 #include "Cell.h"
 #include "cinder/Vector.h"
 
-#include <boost/foreach.hpp>
-
 using namespace ci;
 
-Cell::Cell(Vec2i index) : Neighbors(*this) {
+Cell::Cell(Vec2i index)
+{
     mIndex = index;
     calcPosition();
     mIsOccupied = false;
 };
 
-Cell::Cell(Vec2i index, int size) : Neighbors(*this) {
+Cell::Cell(Vec2i index, int size)
+{
     mIndex = index;
     mSize = size;
     calcPosition();
 }
 
-bool Cell::isOccupied() {
+bool Cell::isOccupied() const
+{
     return mIsOccupied;
 };
 
-bool Cell::setOccupied(bool occupied) {
+bool Cell::setOccupied(bool occupied)
+{
     mIsOccupied = occupied;
     return mIsOccupied;
 }
 
-Vec2i Cell::getIndex() {
+const Vec2i Cell::getIndex() const
+{
     return mIndex;
 }
 
-Vec2f Cell::getPosition() {
+const Vec2f Cell::getPosition() const
+{
     return mPosition;
 }
 
-int Cell::getSize() {
+int Cell::getSize() const
+{
     return mSize;
 }
 
-void Cell::calcPosition() {
+void Cell::calcPosition()
+{
     mPosition = (mIndex * mSize) + Vec2i(mSize/2,mSize/2);
 }
 
-void Cell::addNeighbor(Cell *neighbor) {
-    mNeighbors.push_back( neighbor );
+void Cell::addNeighbor(Cell& neighbor)
+{
+    mNeighbors.push_back( &neighbor );
 };
 
-void Cell::addNeighbors(Cells *neighbors) {
-    BOOST_FOREACH(Cell * c, (*neighbors) ) {
+void Cell::addNeighbors(Cells& neighbors)
+{
+    for(auto c : neighbors) {
         mNeighbors.push_back( c);
     }
 };
 
-void Cell::addNeighborIsEdge() {
+void Cell::addNeighborIsEdge()
+{
     mNeighbors.push_back(nullptr);
 }
 
-void Cell::draw() {
-    
-    
+void Cell::draw()
+{
     if (isOccupied()) {
         glColor3f(0.5, 0, 0);
         gl::drawSolidCircle(mPosition, 2);
@@ -74,13 +82,12 @@ void Cell::draw() {
         glColor3f(0.5, 0.5, 0.5);
         gl::drawSolidCircle(mPosition, 1);
     }
-    
-    
+
     drawBorder();
-    
 }
 
-void Cell::drawBorder() {
+void Cell::drawBorder()
+{
     glColor3f(0.3, 0.3, 0.3);
     int radius = mSize/2;
     gl::drawLine(mPosition + Vec2i(radius, -radius), mPosition + Vec2i(radius, radius));

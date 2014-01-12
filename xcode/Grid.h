@@ -22,12 +22,12 @@ public:
     void update();
     void draw();
     
-    const int getWidth() const;
-    const int getHeight() const;
-    const int getResolution() const;
+    int getWidth() const;
+    int getHeight() const;
+    int getResolution() const;
     const ci::Vec2i getSize() const;
-    const int getRows() const;
-    const int getCols() const;
+    int getRows() const;
+    int getCols() const;
     const ci::Vec2i getDimensions() const;
     
     bool isFullyOccupied() const;

@@ -14,23 +14,24 @@
 using namespace ci;
 
 
-BoxController::BoxController(Grid *grid) {
+BoxController::BoxController(Grid& grid)
+{
     mGrid = grid;
     
     int nBoxes = Rand::randInt(10,20);
     for(int i=0; i<nBoxes; i++) {
-        mBoxes.push_back( Box( grid->getNextOrderedCell() ) );
+        mBoxes.push_back( Box( grid.getNextOrderedCell() ) );
     }
 };
 
 
-BoxController::BoxController(Grid *grid, int nBoxes) {
+BoxController::BoxController(Grid& grid, int nBoxes)
+{
     mGrid = grid;
     
     for(int i=0; i<nBoxes; i++) {
-        if (grid->isFullyOccupied() == false) {
-            //mBoxes.push_back( Box( grid->getNextRandomCell() ) );
-            mBoxes.push_back( Box( grid->getNextOrderedCell() ) );
+        if (grid.isFullyOccupied() == false) {
+            mBoxes.push_back( Box( grid.getNextOrderedCell() ) );
         }
 
     }
@@ -38,19 +39,22 @@ BoxController::BoxController(Grid *grid, int nBoxes) {
 
 void addRandomBox();
 
-void BoxController::setup() {
+void BoxController::setup()
+{
     for(int i=0; i<mBoxes.size(); i++) {
         mBoxes[i].setup();
     }
 };
 
-void BoxController::update() {
+void BoxController::update()
+{
     for(int i=0; i<mBoxes.size(); i++) {
         mBoxes[i].update();
     }
 };
 
-void BoxController::draw() {
+void BoxController::draw()
+{
     for(int i=0; i<mBoxes.size(); i++) {
         mBoxes[i].draw();
     }

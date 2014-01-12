@@ -26,11 +26,12 @@ public:
     
     const ci::Vec2i getIndex() const;
     const ci::Vec2f getPosition()const;
-    const int getSize() const;
+    int getSize() const;
+    
     void calcPosition();
 
-    void addNeighbor(Cell *neighbor);
-    void addNeighbors(Cells *neighbors);
+    void addNeighbor(Cell& neighbor);
+    void addNeighbors(Cells& neighbors);
     void addNeighborIsEdge();
 
     const Cells& getNeighbors() const;

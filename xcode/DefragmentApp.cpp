@@ -17,7 +17,8 @@
 using namespace ci;
 using namespace ci::app;
 
-class DefragmentApp : public AppNative {
+class DefragmentApp : public AppNative
+{
 public:
 	void prepareSettings( Settings *settings );
     void setup();
@@ -30,11 +31,12 @@ private:
     int mHeight = 800;
     
     Grid mGrid = Grid( mWidth, mHeight, 20);
-    BoxController mBoxController = BoxController( &mGrid, 100);
+    BoxController mBoxController = BoxController(mGrid, 100);
     
 };
 
-void DefragmentApp::prepareSettings( Settings *settings) {
+void DefragmentApp::prepareSettings( Settings *settings)
+{
     settings->setWindowSize( mWidth, mHeight);
     settings->setFrameRate( 60.0f);
 };
@@ -44,16 +46,19 @@ void DefragmentApp::setup() {
     mBoxController.setup();
 };
 
-void DefragmentApp::mouseDown( MouseEvent event ) {
+void DefragmentApp::mouseDown( MouseEvent event )
+{
     
 };
 
-void DefragmentApp::update() {
+void DefragmentApp::update()
+{
     //mGrid.update();
     mBoxController.update();
 };
 
-void DefragmentApp::draw() {
+void DefragmentApp::draw()
+{
     // clear out the window with black
     gl::clear( Color(1,1,1) );
     mGrid.draw();

@@ -14,10 +14,11 @@
 #include "Grid.h"
 
 
-class BoxController {
+class BoxController
+{
 public:
-    BoxController(Grid *grid);
-    BoxController(Grid *grid, int nBoxes);
+    BoxController(Grid& grid);
+    BoxController(Grid& grid, int nBoxes);
 
     void setup();
     void update();
@@ -29,7 +30,7 @@ private:
     int mWidth;
     int mHeight;
     
-    Grid *mGrid;
+    Grid mGrid;
     
     typedef std::vector<Box> Boxes;
     Boxes mBoxes;
